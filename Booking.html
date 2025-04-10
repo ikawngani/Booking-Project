@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="Booking.css" />
+    <title>N&M Car Rental</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="nav__header">
+          <div class="nav__menu__btn" id="menu-btn">
+            <i class="ri-menu-line"></i>
+          </div>
+        </div>
+        <ul class="nav__links" id="nav-links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="Cars.html">Car</a></li>
+          <li><a href="Faqs.html">FAQs</a></li>
+          <li><a href="Contact.html">Contact</a></li>
+        </ul>
+        <div class="nav__btn">
+        </div>
+      </nav>
+      <div class="header__container" id="home">
+        <h1>N&M CAR RENTAL</h1>
+          </button>
+          <div class="logo-container">
+            <img src="logo.png" alt="Logo" class="logo">
+        </div>
+      </div>
+      <section id="company-background">
+        <h2>Our Journey</h2>
+        <p>
+            Kevin Ferrer and Daisy Jane Ferrer are the owners of N&M Car Rental, located at 421 Concha St., Brgy 70, Tondo, Manila. N&M Car Rental operates 24 hours a day and is managed solely by the owners. Kevin handles the car deliveries, while Daisy Jane is the customer service representative.
+        </p>
+        <p>
+            Their journey began on March 27, 2021. Before starting their car rental business, they owned a thrift store. However, they noticed the rising demand for car rentals, where people rent cars for self-drive. Initially, they hesitated due to a lack of cars to start with.
+        </p>
+        <p>
+            Determined, they approached Toyota Cubao for a car installment plan. After submitting the required documents, they waited nearly three weeks for bank approval. They feared rejection due to the long wait, but on March 18, they received confirmation of approval. The next day, their first car was released, marking the beginning of their business.
+        </p>
+        <p>
+            Starting with just one car, N&M Car Rental has now expanded to six cars, catering to self-drive customers. Their success story is a testament to their dedication and commitment to providing quality rental services.
+        </p>
+    </section>
+    
+    </header>
+
+  <button class="chat-toggle" onclick="toggleChat()">💬</button>
+    <div class="chat-box" id="chatBox">
+        <div class="chat-header" onclick="toggleChat()">Live Chat</div>
+        <div class="chat-body" id="chatBody"></div>
+        <input type="text" class="chat-input" id="chatInput" placeholder="Type a message...">
+        <button class="send-btn" onclick="sendMessage()">Send</button>
+    </div>
+
+
+    <footer>
+      <div class="contact" id="contact">
+        <h4>Contact Us</h4>
+        <ul class="footer__socials">
+          <li>
+            <a href="https://www.facebook.com/NMcarsrental" target="_blank"><i class="ri-facebook-fill"></i></a>
+            N&M CAR Rental 
+          </li>
+          <li>
+            <a href="#"><i class="ri-phone-fill"></i></a>
+            (+63)955 698 9218
+          </li>
+          <li>
+            <a href="#"><i class="ri-mail-fill"></i></a>
+            Djnavarro67@gmail.com
+          </li>
+        </ul>
+      </div>
+      </div>
+      <div class="footer__bar">
+        Copyright © 2024 N&M Car Rental. All rights reserved.
+      </div>
+    </footer>
+
+    
+    <script src="Booking.js"></script>
+    <script src="server.js"></script>
+  </body>
+</html>
