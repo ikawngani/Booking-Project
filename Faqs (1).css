@@ -1,0 +1,90 @@
+:root {
+    --primary-color: #f5b754;
+    --primary-color-dark: #d6a04a;
+    --text-dark: #15191d;
+    --text-light: #737373;
+    --extra-light: #e5e5e5;
+    --white: #ffffff;
+    --max-width: 1200px;
+    --header-font: "Syncopate", sans-serif;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #fff;
+}
+
+body{
+    overflow-x: hidden;
+}
+
+.container{
+    min-height: 100vh;
+    width: 100vw;
+    background-color: var(--primary-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 20%;
+    overflow-x: hidden;
+}
+
+h1{
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.ques{
+    background-color: transparent;
+    padding: 30px;
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+    transition: all .3s ease-in-out;
+}
+
+.ques:hover{
+    background-color: var(--extra-light);
+}
+
+.ans{
+    max-height: 0px;
+    width: 100%;
+    overflow: hidden;
+    transition: all .3s ease-in-out;
+}
+
+.faq-list{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.faq.active .ans{
+    max-height: 300px;
+}
+
+.ans p{
+    background-color: var(--text-light);
+    padding: 30px;
+    font-size: 25px;
+    border-top: 2px solid #000;
+}
+
+.back-home {
+    display: block;
+    text-align: center;
+    font-size: 18px;
+    margin-top: 20px;
+    text-decoration: none;
+    color: var(--text-light);
+} 
+
